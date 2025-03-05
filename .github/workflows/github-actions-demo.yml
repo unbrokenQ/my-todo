@@ -20,6 +20,6 @@ jobs:
       - name: install modules
         run: npm install
       - name: build project
-        run: npm build
+        run: npm run build
       - name: lint check
-        run: npm lint
+        run: npm run lint
